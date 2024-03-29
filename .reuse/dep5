@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: demonix
+Upstream-Contact: Mika Tammi <https://github.com/mikatammi>
+Source: https://github.com/mikatammi/demonix
+
+Copyright: 2024 Mika Tammi
+License: MIT
+Files: 
+  flake.lock
