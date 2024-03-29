@@ -3,8 +3,11 @@
 #
 # Packages to be exported from the flake
 {
-  perSystem = _: {
-    packages = {
+  perSystem = {pkgs, ...}: {
+    packages = let
+      sointu = pkgs.callPackage ./sointu {};
+    in {
+      inherit sointu;
     };
   };
 }

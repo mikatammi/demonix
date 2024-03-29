@@ -24,3 +24,6 @@ jobs:
         run: nix flake show
       - name: Run nix flake check
         run: nix flake check
+      # TODO: Some rule which builds all desired packages
+      - name: Build Sointu
+        run: nix build .#sointu
