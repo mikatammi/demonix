@@ -1,5 +1,5 @@
-Nix packages for Demoscene tools
-================================
+DemoNix - Nix packages for Demoscene tools
+==========================================
 
 ```
 SPDX-FileCopyrightText: 2024 Mika Tammi
