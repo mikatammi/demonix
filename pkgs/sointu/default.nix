@@ -16,8 +16,8 @@
   vulkan-headers,
   wayland,
 }: let
-  version = "2024-03-02";
-  rev = "e488cd391b57b92591cb6ae1cf9b1d6a1a5e0229";
+  version = "2024-06-19";
+  rev = "db2d9cac9dc938621b8bc05b540c233c78c0dde8";
 in
   buildGoModule {
     name = "sointu-${version}";
@@ -27,7 +27,7 @@ in
       inherit rev;
       owner = "vsariola";
       repo = "sointu";
-      sha256 = "sha256-pKM8krO9ZYKQEbzZ2r0FPoxa+WIluVE48POBfK+O4CA=";
+      sha256 = "sha256-G+bmWcC/nkDgUDieaIX03hzHCVwZr/I1YIyIcUKVIu4=";
     };
 
     vendorHash = "sha256-6AUiIQYU3VSNAjhbFX/WXotfVVTDFzhdhkJWjobh8DI=";
